@@ -21,6 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('playground/', include('playground.urls')),
     path('calc/', include('calc.urls')),
+    path('traveller/', include('traveller.urls')),
     
     path('__debug/', include(debug_toolbar.urls))
     
